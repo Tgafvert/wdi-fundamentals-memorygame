@@ -36,6 +36,13 @@ function checkForMatch() {
 }
 }
 
+function createBoard() {
+	for (var i = 0; 1 < cards.length; i++) {
+		var newListItem = cardElement.createElement('img');
+		cardElement.setAttribute('attributeName', 'attributeValue');
+	}
+}
+
 function flipCard(cardId) {
 	
 	console.log("User flipped " + cards[cardId].rank);
